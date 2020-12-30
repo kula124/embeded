@@ -1,0 +1,20 @@
+.container {
+  height: 115px;
+  background-color: #51ffb4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & section {
+    margin: 0 30px;
+  }
+}
+
+.logo img {
+  height: 40px;
+}
+
+.login span {
+  color: white;
+  font-size: 28px;
+}

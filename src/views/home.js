@@ -1,8 +1,12 @@
 import React from 'react'
 
+import MainLayout from 'layouts/main.js'
+
 const Home = () => (
   <main>
-    Welcome home!
+    <MainLayout>
+      <div>Hello</div>
+    </MainLayout>
   </main>
 )
 

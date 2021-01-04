@@ -1,0 +1,28 @@
+@import "../../styles/colors.scss";
+
+.container {
+  width: 140px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 10px 15px;
+
+  & span {
+    display: block;
+    color: $font-color;
+    font-size: 22px;
+  }
+
+  & i svg,
+  img {
+    height: 1.7em;
+    width: 1.7em;
+  }
+
+  &:hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: lightblue;
+    cursor: pointer;
+  }
+}

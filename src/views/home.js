@@ -4,7 +4,9 @@ import MainLayout from 'layouts/main.js'
 
 const Home = () => (
   <main>
-    <MainLayout />
+    <MainLayout>
+      <div>Hello</div>
+    </MainLayout>
   </main>
 )
 
